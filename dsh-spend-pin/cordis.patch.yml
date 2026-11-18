@@ -1,0 +1,3 @@
+- insert:
+    - id: spend-pin
+      name: '@local/dsh-spend-pin'

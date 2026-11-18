@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "火狐浏览器控制",
+    "description": "直接驱动你自己正在用的火狐：工具栏开关决定是否允许，受控标签页带红框和绿色标签标记；另有 WebDriver BiDi 通道作为兜底。"
+  },
+  "tools": {
+    "firefox_status": "检查 DSH 当前如何连到火狐",
+    "firefox_open": "在你的火狐里开一个由 DSH 控制的标签页",
+    "firefox_tabs": "列出当前打开的火狐标签页",
+    "firefox_eval": "从火狐标签页读取状态",
+    "firefox_navigate": "在火狐标签页中打开网址",
+    "firefox_input": "在火狐标签页里点击、输入或按键",
+    "firefox_screenshot": "把火狐标签页截图为 PNG",
+    "firefox_launch": "另开一个带 BiDi 代理的火狐（兜底）"
+  }
+}

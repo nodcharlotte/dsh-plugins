@@ -1,0 +1,10 @@
+- insert:
+    - id: firefox-bidi
+      name: '@local/dsh-firefox-bidi'
+      config:
+        # Fallback transport: a direct WebDriver BiDi connection.
+        port: 9222
+        # Primary transport: the DSH Bridge extension dials this path on the
+        # host web server. Both sides must agree on this token.
+        bridgePath: /firefox-bridge
+        bridgeToken: dsh-local-bridge

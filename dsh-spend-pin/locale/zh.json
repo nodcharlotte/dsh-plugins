@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "金额计算与固定供应商",
+    "description": "在原生模型设置里固定 OpenRouter 模型的上游 endpoint；每个会话按实际供应商价格计算 CNY/USD 花费，算出的金额写入存档，之后价格变化也不重算。"
+  }
+}

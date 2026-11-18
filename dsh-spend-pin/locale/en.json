@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Spend & Pinned Providers",
+    "description": "Pins each OpenRouter model to a chosen upstream endpoint inside the native Models editor; prices every session's CNY/USD spend from the actual provider and archives each computed amount."
+  }
+}

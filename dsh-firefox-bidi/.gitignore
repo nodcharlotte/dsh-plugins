@@ -1,0 +1,17 @@
+# Build output and signing artifacts — reproduce, don't commit.
+dist/
+*.zip
+*.xpi
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test output
+*.log

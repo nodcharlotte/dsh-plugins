@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Firefox Browser Control",
+    "description": "Drives your own Firefox: a switch in the toolbar grants access, controlled tabs get a red outline and a green tab marker, and a WebDriver BiDi path remains as fallback."
+  },
+  "tools": {
+    "firefox_status": "Check how DSH can reach Firefox",
+    "firefox_open": "Open a tab in your Firefox that DSH controls",
+    "firefox_tabs": "List the open Firefox tabs",
+    "firefox_eval": "Read state out of a Firefox tab",
+    "firefox_navigate": "Open a URL in a Firefox tab",
+    "firefox_input": "Click, type or press keys in a Firefox tab",
+    "firefox_screenshot": "Capture a Firefox tab as a PNG",
+    "firefox_launch": "Start a separate Firefox with the BiDi agent (fallback)"
+  }
+}

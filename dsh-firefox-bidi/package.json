@@ -1,0 +1,36 @@
+{
+  "name": "@local/dsh-firefox-bidi",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Control Firefox from DSH: a switch in the toolbar grants access, and controlled tabs are outlined in red — plus a WebDriver BiDi fallback",
+  "exports": {
+    ".": "./index.js",
+    "./bidi": "./bidi.js",
+    "./bridge": "./bridge.js",
+    "./transport": "./transport.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "bidi.js",
+    "bridge.js",
+    "transport.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "extension/manifest.json",
+    "extension/background.js",
+    "extension/content.js",
+    "extension/popup.html",
+    "extension/popup.css",
+    "extension/popup.js",
+    "extension/icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

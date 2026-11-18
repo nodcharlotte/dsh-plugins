@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>DSH 控制</title>
+  </head>
+  <body>
+    <header>
+      <span class="title">DSH 控制</span>
+      <label class="switch" title="开关决定是否允许 DSH 操作这个火狐">
+        <input id="toggle" type="checkbox" />
+        <span class="track"><span class="knob"></span></span>
+      </label>
+    </header>
+
+    <p id="state" class="state state--off">未允许</p>
+
+    <dl class="facts">
+      <div><dt>宿主</dt><dd id="host">—</dd></div>
+      <div><dt>受控标签页</dt><dd id="count">0</dd></div>
+    </dl>
+
+    <p id="hint" class="hint" hidden></p>
+
+    <div class="actions">
+      <button id="release" type="button" class="ghost">全部取消控制</button>
+      <button id="toggle-advanced" type="button" class="ghost">连接设置</button>
+    </div>
+
+    <section id="advanced" class="advanced" hidden>
+      <label>地址 <input id="host-input" type="text" placeholder="127.0.0.1" /></label>
+      <label>端口 <input id="port-input" type="number" min="1" max="65535" /></label>
+      <label>令牌 <input id="token-input" type="text" /></label>
+      <button id="save" type="button">保存并重连</button>
+      <p class="foot">开关打开后，这个火狐才能被 DSH 操作。关掉会立刻断开连接。</p>
+    </section>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

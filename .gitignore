@@ -1,0 +1,16 @@
+# dependencies / build output
+node_modules/
+dist/
+*.xpi
+*.zip
+
+# runtime artifacts
+.pet-runtime/
+*.log
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,3 @@
+- insert:
+    - id: live-code
+      name: '@local/dsh-live-code'

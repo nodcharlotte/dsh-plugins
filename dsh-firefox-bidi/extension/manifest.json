@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "DSH Bridge",
+  "version": "1.0.1",
+  "description": "让 DeepSeek Harness 能操作这个火狐：由弹窗里的开关决定是否允许，受控标签页带红框和绿色标记。",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dsh-bridge@local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "permissions": ["<all_urls>", "tabs", "storage", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "DSH 控制",
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@local/dsh-live-code",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Right-sidebar live view of the file the agent is reading, writing or editing, with the changed lines highlighted and jumped to",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}
