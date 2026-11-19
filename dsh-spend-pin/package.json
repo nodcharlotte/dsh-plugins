@@ -17,6 +17,9 @@
     "locale/*.json",
     "README.md"
   ],
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": "*"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
