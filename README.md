@@ -6,13 +6,19 @@
 > 本仓库不保证跟进更新——能用的版本就是现在这个。
 > 非官方项目，与 DeepSeek 无关。
 
+## 下载
+
+| 发布物 | 说明 |
+| --- | --- |
+| [dsh-bridge-1.0.1-signed.xpi](https://github.com/nodcharlotte/dsh-plugins/releases/download/firefox-bidi-v1.0.1/dsh-bridge-1.0.1-signed.xpi) | Firefox 扩展，AMO 已签名，拖进 Firefox 即可安装 |
+
 ## 插件
 
 | 目录 | 作用 | 备注 |
 | --- | --- | --- |
 | [dsh-live-code](dsh-live-code/) | 右侧栏实时代码视图：模型读/写/编辑文件时打开对应文件，高亮变更行并跳转 | 无依赖，装上就能用 |
 | [dsh-spend-pin](dsh-spend-pin/) | OpenRouter 固定上游 endpoint，并按实际供应商计价（CNY / USD） | 需要 OpenRouter API Key |
-| [dsh-firefox-bidi](dsh-firefox-bidi/) | 从 DSH 控制 Firefox：扩展授权开关 + WebDriver BiDi 回退 | 扩展需自行签名安装 |
+| [dsh-firefox-bidi](dsh-firefox-bidi/) | 从 DSH 控制 Firefox：扩展授权开关 + WebDriver BiDi 回退 | 扩展已签名，[在 Release 里下载](https://github.com/nodcharlotte/dsh-plugins/releases/tag/firefox-bidi-v1.0.1) |
 
 ## 安装
 

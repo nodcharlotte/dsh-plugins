@@ -20,8 +20,14 @@ while its switch is off.
 
 **Signed and installable for good.** Version 1.0.1 passed AMO automatic validation
 and is approved: <https://addons.mozilla.org/developers/addon/3121623/versions>.
-Download the signed `.xpi` from that page and drag it into Firefox. The add-on id
-`dsh-bridge@local` is what ties future versions to it.
+
+Direct download (signed, same file):
+
+- [dsh-bridge-1.0.1-signed.xpi](https://github.com/nodcharlotte/dsh-plugins/releases/download/firefox-bidi-v1.0.1/dsh-bridge-1.0.1-signed.xpi)
+
+Drag the `.xpi` into a Firefox window, or use `about:addons` → gear icon →
+*Install Add-on From File…*. The add-on id `dsh-bridge@local` is what ties future
+versions to it; the signature is what makes it installable permanently.
 
 For development, load `extension/` directly in `about:debugging` → **Load Temporary
 Add-on** → pick `extension/manifest.json`. A temporary add-on disappears when
@@ -133,7 +139,8 @@ not exist before Firefox 142.
 
 The signed `.xpi` is portable — one file, no build step, nothing to compile.
 
-1. Download the signed file from the AMO developer page for
+1. Download the signed file from this repository's release
+   (`firefox-bidi-v1.0.1`), or from the AMO developer page for
    `dsh-bridge@local` (version 1.0.1), or copy `dsh-bridge@local.xpi` from the
    first machine's profile:
    `%APPDATA%\Mozilla\Firefox\Profiles\<profile>\extensions\dsh-bridge@local.xpi`
