@@ -78,7 +78,7 @@ dsh plugin --profile web add "<本目录的绝对路径>"
   `~/.dsh/profiles/web/node_modules/@local/dsh-live-code` → 本目录。
   **移动本目录后必须重跑一次上面的 `add`**，否则软链指空。
 - 新增 bundle **需要重启 `dsh web`**；之后改 `client.js` 只需刷新页面。
-- 适配 DSH 0.2.1-rc.2；其它版本未测试。
+- 已在 DSH 0.2.1-rc.2 与 0.2.2-rc.5 上测试。
 
 ## 实现
 

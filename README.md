@@ -2,7 +2,7 @@
 
 给 **DSH（DeepSeek Harness）** 用的几个第三方插件，按现状发布（as-is）。
 
-> 适配 **DSH 0.2.1 及以上**。插件接口还是预览版，升级 DSH 后可能失效。
+> 已在 **DSH 0.2.1-rc.2** 与 **0.2.2-rc.5** 上测试。插件接口还是预览版，升级 DSH 后可能失效。
 > 本仓库不保证跟进更新——能用的版本就是现在这个。
 > 非官方项目，与 DeepSeek 无关。
 
@@ -38,7 +38,7 @@ A small collection of third-party plugins for **DSH (DeepSeek Harness)**:
 a live code viewer, an OpenRouter endpoint pinner with per-session spend, and
 Firefox control via WebDriver BiDi.
 
-Pinned to DSH `0.2.1+`, published **as-is** with no update guarantee.
+Tested on DSH `0.2.1-rc.2` and `0.2.2-rc.5`, published **as-is** with no update guarantee.
 Unofficial, not affiliated with DeepSeek.
 
 ## 许可

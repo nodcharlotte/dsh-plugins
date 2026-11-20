@@ -3,6 +3,8 @@
 Two transports behind one set of tools. The switch in the toolbar is the whole
 permission model.
 
+Tested on DSH `0.2.1-rc.2` and `0.2.2-rc.5`.
+
 For anyone auditing this before installing it, see
 [What this add-on does, and does not do](#what-this-add-on-does-and-does-not-do):
 it collects nothing, never contacts the internet, and holds no connection at all
